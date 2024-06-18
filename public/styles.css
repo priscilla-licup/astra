@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('/images/starry.gif');
+    /* background-size: cover; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.horoscope {
+    margin-top: 60px;
+}
+
+.sign img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.date-range {
+    font-size: 1rem;
+}
+
+.horoscope-message {
+    background-color: #1E3A8A;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.daily-message {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.compatibility {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}

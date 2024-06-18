@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Astra Scented Candles</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="/images/logo.png" alt="Astra logo"></div>
+        </header>
+        <main>
+            <section class="admin">
+                <h1>Admin Panel</h1>
+                <form action="/admin/save" method="post">
+                    <label for="sign">Sign:</label>
+                    <select id="sign" name="sign" onchange="loadHoroscopeData(this.value)">
+                        <% horoscopes.forEach(horoscope => { %>
+                            <option value="<%= horoscope.sign %>"><%= horoscope.sign %></option>
+                        <% }) %>
+                    </select>
+                    <label for="date-range">Date Range:</label>
+                    <input type="text" id="date-range-input" name="dateRange">
+                    <label for="daily-message">Daily Message:</label>
+                    <textarea id="daily-message-input" name="dailyMessage"></textarea>
+                    <label for="compatibility">Compatibility:</label>
+                    <input type="text" id="compatibility-input" name="compatibility">
+                    <label for="image">Image:</label>
+                    <input type="text" id="image" name="image">
+                    <button type="submit">Save</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="social-media">
+                <a href="#"><img src="/images/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="/images/ig.png" alt="Instagram"></a>
+                <a href="#"><img src="/images/tt.png" alt="TikTok"></a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const horoscopes = <%= JSON.stringify(horoscopes) %>;
+        function loadHoroscopeData(sign) {
+            const horoscope = horoscopes.find(h => h.sign === sign);
+            if (horoscope) {
+                document.getElementById('date-range-input').value = horoscope.dateRange;
+                document.getElementById('daily-message-input').value = horoscope.dailyMessage;
+                document.getElementById('compatibility-input').value = horoscope.compatibility;
+                document.getElementById('image').value = horoscope.image;
+            }
+        }
+        // Load data for the first horoscope by default
+        window.onload = () => {
+            const firstSign = document.getElementById('sign').value;
+            loadHoroscopeData(firstSign);
+        };
+    </script>
+</body>
+</html>

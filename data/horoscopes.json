@@ -1,0 +1,86 @@
+[
+    {
+        "sign": "Aries",
+        "dateRange": "March 21 - April 19",
+        "dailyMessage": "Today is a great day to start new projects. Be bold and take the initiative!",
+        "compatibility": "Leo, Sagittarius, Gemini, Aquarius",
+        "image": "aries.png"
+    },
+    {
+        "sign": "Taurus",
+        "dateRange": "April 20 - May 20",
+        "dailyMessage": "Focus on your finances today. A practical approach will bring rewards.",
+        "compatibility": "Virgo, Capricorn, Cancer, Pisces",
+        "image": "taurus.png"
+    },
+    {
+        "sign": "Gemini",
+        "dateRange": "May 21 - June 20",
+        "dailyMessage": "Communication is key today. Express yourself clearly and listen attentively.",
+        "compatibility": "Libra, Aquarius, Aries, Leo",
+        "image": "gemini.png"
+    },
+    {
+        "sign": "Cancer",
+        "dateRange": "June 21 - July 22",
+        "dailyMessage": "Spend time with loved ones today. Your emotional connections are important.",
+        "compatibility": "Scorpio, Pisces, Taurus, Virgo",
+        "image": "cancer.png"
+    },
+    {
+        "sign": "Leo",
+        "dateRange": "July 23 - August 22",
+        "dailyMessage": "You may feel a little uneasy today, remember to stay afloat!",
+        "compatibility": "Gemini, Aquarius, Sagittarius, Aries",
+        "image": "leo.png"
+    },
+    {
+        "sign": "Virgo",
+        "dateRange": "August 23 - September 22",
+        "dailyMessage": "Attention to detail will serve you well today. Stay organized and focused.",
+        "compatibility": "Taurus, Capricorn, Cancer, Scorpio",
+        "image": "virgo.png"
+    },
+    {
+        "sign": "Libra",
+        "dateRange": "September 23 - October 22",
+        "dailyMessage": "Balance is crucial today. Seek harmony in your relationships and surroundings.",
+        "compatibility": "Gemini, Aquarius, Leo, Sagittarius",
+        "image": "libra.png"
+    },
+    {
+        "sign": "Scorpio",
+        "dateRange": "October 23 - November 21",
+        "dailyMessage": "Trust your intuition today. Your instincts will guide you to the right decisions.",
+        "compatibility": "Cancer, Pisces, Virgo, Capricorn",
+        "image": "scorpio.png"
+    },
+    {
+        "sign": "Sagittarius",
+        "dateRange": "November 22 - December 21",
+        "dailyMessage": "Adventure awaits you today. Embrace new experiences with an open mind.",
+        "compatibility": "Aries, Leo, Libra, Aquarius",
+        "image": "sagittarius.png"
+    },
+    {
+        "sign": "Capricorn",
+        "dateRange": "December 22 - January 19",
+        "dailyMessage": "Hard work will pay off today. Stay determined and keep pushing forward.",
+        "compatibility": "Taurus, Virgo, Scorpio, Pisces",
+        "image": "capricorn.png"
+    },
+    {
+        "sign": "Aquarius",
+        "dateRange": "January 20 - February 18",
+        "dailyMessage": "Innovative ideas will come to you today. Think outside the box.",
+        "compatibility": "Gemini, Libra, Aries, Sagittarius",
+        "image": "aquarius.png"
+    },
+    {
+        "sign": "Pisces",
+        "dateRange": "February 19 - March 20",
+        "dailyMessage": "Your creativity is at its peak today. Let your imagination guide you.",
+        "compatibility": "Cancer, Scorpio, Taurus, Capricorn",
+        "image": "pisces.png"
+    }
+]
