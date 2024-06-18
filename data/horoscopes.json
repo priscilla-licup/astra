@@ -2,85 +2,206 @@
     {
         "sign": "Aries",
         "dateRange": "March 21 - April 19",
-        "dailyMessage": "Today is a great day to start new projects. Be bold and take the initiative!",
-        "compatibility": "Leo, Sagittarius, Gemini, Aquarius",
-        "image": "aries.png"
+        "dailyMessage": "You may feel a little uneasy today, remember to stay afloat!",
+        "compatibility": "Gemini, Leo, Sagittarius",
+        "image": "aries.png",
+        "details": {
+            "description": "It's finally time for you to think about just one thing: what makes you happy. Fortunately, that happens to be a person who feels the same way. Give yourself the evening off. Refuse to be put in charge of anything.",
+            "mood": "Relaxed",
+            "color": "Spring Green",
+            "luckyNumber": "64",
+            "luckyTime": "7 AM",
+            "love": "Expect positive developments in your love life.",
+            "money": "Focus on saving rather than spending today.",
+            "health": "Take some time to relax and rejuvenate."
+        }
     },
     {
         "sign": "Taurus",
         "dateRange": "April 20 - May 20",
-        "dailyMessage": "Focus on your finances today. A practical approach will bring rewards.",
-        "compatibility": "Virgo, Capricorn, Cancer, Pisces",
-        "image": "taurus.png"
+        "dailyMessage": "Today is a good day to focus on your personal goals.",
+        "compatibility": "Cancer, Virgo, Capricorn",
+        "image": "taurus.png",
+        "details": {
+            "description": "Your focus is sharp today, and you can accomplish a lot. Use this energy to tackle tasks you've been putting off.",
+            "mood": "Determined",
+            "color": "Blue",
+            "luckyNumber": "22",
+            "luckyTime": "9 AM",
+            "love": "Communication is key in your relationships today.",
+            "money": "A financial opportunity may present itself.",
+            "health": "Stay active and keep up with your fitness routine."
+        }
     },
     {
         "sign": "Gemini",
         "dateRange": "May 21 - June 20",
-        "dailyMessage": "Communication is key today. Express yourself clearly and listen attentively.",
-        "compatibility": "Libra, Aquarius, Aries, Leo",
-        "image": "gemini.png"
+        "dailyMessage": "Keep your mind open to new possibilities today.",
+        "compatibility": "Aries, Leo, Libra",
+        "image": "gemini.png",
+        "details": {
+            "description": "Your social skills are on point today, making it a great time to network and make new connections.",
+            "mood": "Energetic",
+            "color": "Yellow",
+            "luckyNumber": "7",
+            "luckyTime": "2 PM",
+            "love": "A new romantic interest might enter your life.",
+            "money": "Financial gains are possible through social contacts.",
+            "health": "Stay hydrated and maintain your energy levels."
+        }
     },
     {
         "sign": "Cancer",
         "dateRange": "June 21 - July 22",
-        "dailyMessage": "Spend time with loved ones today. Your emotional connections are important.",
-        "compatibility": "Scorpio, Pisces, Taurus, Virgo",
-        "image": "cancer.png"
+        "dailyMessage": "Focus on your emotional well-being today.",
+        "compatibility": "Taurus, Virgo, Scorpio",
+        "image": "cancer.png",
+        "details": {
+            "description": "Today is a day for self-care and nurturing. Take time to relax and rejuvenate your spirit.",
+            "mood": "Nurturing",
+            "color": "White",
+            "luckyNumber": "3",
+            "luckyTime": "11 AM",
+            "love": "Your relationships may require extra attention today.",
+            "money": "Be cautious with financial decisions.",
+            "health": "Spend time in nature to rejuvenate."
+        }
     },
     {
         "sign": "Leo",
         "dateRange": "July 23 - August 22",
-        "dailyMessage": "You may feel a little uneasy today, remember to stay afloat!",
-        "compatibility": "Gemini, Aquarius, Sagittarius, Aries",
-        "image": "leo.png"
+        "dailyMessage": "Your confidence will take you far today.",
+        "compatibility": "Aries, Gemini, Libra",
+        "image": "leo.png",
+        "spotify":"https://open.spotify.com/embed/playlist/37i9dQZF1DX7cvHpkIJFt2?utm_source=generator",
+        "details": {
+            "description": "Use your natural leadership skills to inspire those around you. Your charisma will attract positive attention.",
+            "mood": "Confident",
+            "color": "Gold",
+            "luckyNumber": "1",
+            "luckyTime": "10 AM",
+            "love": "A romantic gesture will go a long way.",
+            "money": "Opportunities for financial growth are present.",
+            "health": "Keep up with your fitness routine to stay in top shape."
+        }
     },
     {
         "sign": "Virgo",
         "dateRange": "August 23 - September 22",
-        "dailyMessage": "Attention to detail will serve you well today. Stay organized and focused.",
-        "compatibility": "Taurus, Capricorn, Cancer, Scorpio",
-        "image": "virgo.png"
+        "dailyMessage": "Pay attention to the details today.",
+        "compatibility": "Taurus, Cancer, Capricorn",
+        "image": "virgo.png",
+        "details": {
+            "description": "Your analytical skills are sharp today. Use them to solve problems and make progress on your goals.",
+            "mood": "Focused",
+            "color": "Green",
+            "luckyNumber": "5",
+            "luckyTime": "4 PM",
+            "love": "Your partner may need your support and understanding.",
+            "money": "Financial stability is within reach if you stay organized.",
+            "health": "Maintain a balanced diet to keep your energy levels up."
+        }
     },
     {
         "sign": "Libra",
         "dateRange": "September 23 - October 22",
-        "dailyMessage": "Balance is crucial today. Seek harmony in your relationships and surroundings.",
-        "compatibility": "Gemini, Aquarius, Leo, Sagittarius",
-        "image": "libra.png"
+        "dailyMessage": "Strive for balance in all areas of your life today.",
+        "compatibility": "Gemini, Leo, Sagittarius",
+        "image": "libra.png",
+        "details": {
+            "description": "Today is a great day to focus on harmony and relationships. Seek out peaceful solutions to conflicts.",
+            "mood": "Balanced",
+            "color": "Pink",
+            "luckyNumber": "6",
+            "luckyTime": "1 PM",
+            "love": "Romantic opportunities may arise unexpectedly.",
+            "money": "Financial decisions should be made with caution.",
+            "health": "Engage in activities that promote relaxation and stress relief."
+        }
     },
     {
         "sign": "Scorpio",
         "dateRange": "October 23 - November 21",
-        "dailyMessage": "Trust your intuition today. Your instincts will guide you to the right decisions.",
-        "compatibility": "Cancer, Pisces, Virgo, Capricorn",
-        "image": "scorpio.png"
+        "dailyMessage": "Your intuition is heightened today.",
+        "compatibility": "Cancer, Virgo, Capricorn",
+        "image": "scorpio.png",
+        "details": {
+            "description": "Trust your instincts and delve deep into your emotions. This is a time for transformation and growth.",
+            "mood": "Intuitive",
+            "color": "Red",
+            "luckyNumber": "9",
+            "luckyTime": "8 PM",
+            "love": "Intense emotional connections are likely.",
+            "money": "Look for hidden opportunities in financial matters.",
+            "health": "Focus on emotional and mental well-being."
+        }
     },
     {
         "sign": "Sagittarius",
         "dateRange": "November 22 - December 21",
-        "dailyMessage": "Adventure awaits you today. Embrace new experiences with an open mind.",
-        "compatibility": "Aries, Leo, Libra, Aquarius",
-        "image": "sagittarius.png"
+        "dailyMessage": "Embrace adventure and new experiences today.",
+        "compatibility": "Aries, Leo, Libra",
+        "image": "sagittarius.png",
+        "details": {
+            "description": "Your adventurous spirit is strong today. Explore new opportunities and expand your horizons.",
+            "mood": "Adventurous",
+            "color": "Purple",
+            "luckyNumber": "3",
+            "luckyTime": "12 PM",
+            "love": "A spontaneous date could reignite passion.",
+            "money": "Opportunities for travel-related income may arise.",
+            "health": "Stay active and engage in outdoor activities."
+        }
     },
     {
         "sign": "Capricorn",
         "dateRange": "December 22 - January 19",
-        "dailyMessage": "Hard work will pay off today. Stay determined and keep pushing forward.",
-        "compatibility": "Taurus, Virgo, Scorpio, Pisces",
-        "image": "capricorn.png"
+        "dailyMessage": "Focus on your long-term goals today.",
+        "compatibility": "Taurus, Virgo, Scorpio",
+        "image": "capricorn.png",
+        "details": {
+            "description": "Your determination and discipline are your strengths today. Use them to make progress towards your ambitions.",
+            "mood": "Ambitious",
+            "color": "Brown",
+            "luckyNumber": "8",
+            "luckyTime": "6 AM",
+            "love": "Your partner may need reassurance of your commitment.",
+            "money": "A financial plan will help you achieve stability.",
+            "health": "Stay grounded and maintain a regular routine."
+        }
     },
     {
         "sign": "Aquarius",
         "dateRange": "January 20 - February 18",
-        "dailyMessage": "Innovative ideas will come to you today. Think outside the box.",
-        "compatibility": "Gemini, Libra, Aries, Sagittarius",
-        "image": "aquarius.png"
+        "dailyMessage": "Innovation and creativity are your allies today.",
+        "compatibility": "Aries, Gemini, Libra",
+        "image": "aquarius.png",
+        "details": {
+            "description": "Think outside the box and embrace unconventional ideas. Your creativity will lead to success.",
+            "mood": "Innovative",
+            "color": "Silver",
+            "luckyNumber": "11",
+            "luckyTime": "5 PM",
+            "love": "A creative gesture will surprise your partner.",
+            "money": "Invest in innovative projects for long-term gains.",
+            "health": "Engage in activities that stimulate your mind."
+        }
     },
     {
         "sign": "Pisces",
         "dateRange": "February 19 - March 20",
-        "dailyMessage": "Your creativity is at its peak today. Let your imagination guide you.",
-        "compatibility": "Cancer, Scorpio, Taurus, Capricorn",
-        "image": "pisces.png"
+        "dailyMessage": "Trust your intuition and go with the flow today.",
+        "compatibility": "Taurus, Cancer, Scorpio",
+        "image": "pisces.png",
+        "details": {
+            "description": "Your empathy and intuition are your strengths today. Use them to connect with others and find harmony.",
+            "mood": "Compassionate",
+            "color": "Sea Green",
+            "luckyNumber": "12",
+            "luckyTime": "3 PM",
+            "love": "Deep emotional connections are likely.",
+            "money": "Financial intuition will guide you to wise choices.",
+            "health": "Take time for self-care and relaxation."
+        }
     }
 ]
