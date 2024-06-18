@@ -81,3 +81,53 @@ footer {
 .social-media a {
     margin: 0 10px;
 }
+
+
+/* Cards */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(30, 58, 138, 0.8);
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-decoration: none;  /* Remove underline */
+    color: #fff;            /* Ensure the text color is white for visibility */
+}
+
+.card-date-range {
+    font-size: 1rem;
+    margin: 0;
+    text-decoration: none;  /* Remove underline */
+    color: #fff;            /* Ensure the text color is white for visibility */
+}
+
+.card a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit the color from parent elements */
+}
